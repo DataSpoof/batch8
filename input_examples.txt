@@ -1,7 +1,7 @@
 /lookup
 
 {
-  "prompt": "Show me all the sales for store 1320 on November 1st, 2021"
+  "prompt": "Show me all the sales for store 1320 on November 1st, 2022"
 }
 
 
