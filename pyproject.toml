@@ -1,0 +1,19 @@
+[project]
+name = "batch4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.120.0",
+    "jupyter>=1.1.1",
+    "nemoguardrails>=0.17.0",
+    "pytest>=8.4.2",
+    "sqlparse>=0.5.3",
+    "uvicorn>=0.38.0",
+    "arize-phoenix",
+    "openinference-instrumentation-openai",
+    "python-dotenv",
+    "openai",
+    "duckdb"
+]

@@ -1,0 +1,34 @@
+/lookup
+
+{
+  "prompt": "Show me all the sales for store 1320 on November 1st, 2021"
+}
+
+
+
+
+/analyze
+{
+  "prompt": "What trends do you see in this data?",
+  "data": "[{\"store\":1320, \"date\":\"2021-11-01\", \"sales\":1200}, {\"store\":1320, \"date\":\"2021-11-02\", \"sales\":1500}, {\"store\":1320, \"date\":\"2021-11-03\", \"sales\":900}]"
+}
+
+
+/visualize
+
+{
+  "data": "[{\"store\":1320, \"sales\":1200}, {\"store\":1321, \"sales\":1800}, {\"store\":1322, \"sales\":950}]",
+  "visualization_goal": "A bar chart of sales by store"
+}
+
+
+/agent/run
+
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me the graph of sales by store in November 2021, and tell me what trends you see."
+    }
+  ]
+}
